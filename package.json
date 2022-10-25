@@ -1,0 +1,19 @@
+{
+  "name": "asynctest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node -r dotenv/config server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-interactions": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.9.2",
+    "fastify-raw-body": "^4.1.1",
+    "ngrok": "^4.3.3"
+  }
+}
