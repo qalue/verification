@@ -45,7 +45,7 @@ server.post("/", async (request, response) => {
     }
 });
 
-server.listen(process.env.PORT || 5000,async(error,address)=>{
+server.listen(process.env.PORT||80,async(error,address)=>{
     if(error){
         server.log.error(error)
         process.exit(1)
